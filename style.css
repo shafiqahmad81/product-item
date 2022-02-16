@@ -690,9 +690,11 @@ a.menu-tigger {
 .search-close-btn {
 	float: right;
 	padding: 0px 10px;
-	background: #ddd;
+	background: #EEDAD3;
 	border: 1px solid #ddd;
 }
+
+
 
 .search-btn {
 	display: flex;
@@ -702,6 +704,14 @@ a.menu-tigger {
 
 .check.active .search-btn {
 	transform: translateX(0%);
+}
+
+input[type="search"]:focus {
+	outline: none;
+}
+
+input[type="search"] {
+	border: 1px solid #EEDAD3;
 }
 
 
@@ -783,8 +793,8 @@ a.menu-tigger {
 	}
 
 	.single-slide-tablesell {
-		font-size: 75px;
-		line-height: 70px;
+		font-size: 60px;
+		line-height: 50px;
 	}
 
 	.single-slide-table {
@@ -792,7 +802,7 @@ a.menu-tigger {
 	}
 
 	ul.big-menu li a {
-		padding: 70px 0 20px 0;
+		padding: 50px 0 20px 0;
 	}
 
 	ul.big-menu li {
@@ -889,12 +899,11 @@ a.menu-tigger {
 	}
 
 	.email-subscribe-form input[type=email] {
-		padding: 6px 20px;
-		min-width: 200px;
+		padding: 6px 10px;
 	}
 
 	.email-subscribe-form input[type=submit] {
-		padding: 6px 20px;
+		padding: 6px 8px;
 	}
 }
 
